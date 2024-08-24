@@ -64,7 +64,7 @@ export const CountryPage = ([
               />
             </Grid>
             <Grid item xs={1} sm={1} md={1}>
-              <Image url={flags.png} title={flags.alt} />
+              <Image isFit url={flags.png} title={flags.alt} />
             </Grid>
             <Grid item xs={1} sm={2} md={2}>
               <Button onClick={() => navigate("/")}>Back to Home</Button>

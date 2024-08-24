@@ -18,8 +18,8 @@ export const Country = ({ name, flags, capital }: CountryData) => {
   };
 
   return (
-    <Grid item xs>
-      <Card sx={{ cursor: "pointer" }}>
+    <Grid item xs={4}>
+      <Card sx={{ cursor: "pointer", margin: "2px" }}>
         <CardActionArea onClick={handleClick}>
           <Image title={flags.alt} url={flags.png} />
           <CardContent>
